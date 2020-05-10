@@ -1,6 +1,9 @@
 package factory;
 
+import singleton.Singleton;
+
 public abstract class Factory {
+
     public final Product create(String owner){
         Product p = createProduct(owner);
         registerProduct(p);

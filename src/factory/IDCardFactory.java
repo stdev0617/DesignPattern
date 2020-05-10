@@ -6,10 +6,11 @@ import java.util.List;
 public class IDCardFactory extends Factory {
 
     private List owners = new ArrayList<>();
+    public static Long id = IdMaker.getInstance().getNextId();
 
     @Override
     protected Product createProduct(String owner) {
-        return new IDCard(owner);
+        return new IDCard(owner, id);
     }
 
     @Override
