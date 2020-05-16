@@ -1,4 +1,4 @@
-package adaptor;
+package adaptor.inheritance;
 
 public interface Print {
     public abstract void printWeak();

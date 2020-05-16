@@ -1,4 +1,7 @@
-package adaptor;
+package adaptor.delegation;
+
+import adaptor.inheritance.Print;
+import adaptor.inheritance.PrintBanner;
 
 public class Main {
     public static void main(String[] args) {

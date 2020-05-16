@@ -1,4 +1,4 @@
-package adaptor;
+package adaptor.inheritance;
 
 public class PrintBanner extends Banner implements Print{
 
