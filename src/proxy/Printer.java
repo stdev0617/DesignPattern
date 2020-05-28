@@ -6,6 +6,11 @@ public class Printer implements Printable{
         heavyJob("Printer의 인스턴스를 생성중");
     }
 
+    public Printer(String name) {
+        this.name = name;
+        heavyJob("Printer의 인스턴스 (" + name + ")을 생성 중");
+    }
+
     @Override
     public void setPrinterName(String name) {
         this.name = name;
